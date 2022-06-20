@@ -53,7 +53,7 @@ public class PowerUpManager : MonoBehaviour
     public void RemovePowerUp(GameObject powerUp) 
     { 
         powerUpList.Remove(powerUp); 
-        Destroy(powerUp); 
+        Destroy(powerUp);
     } 
  
     public void RemoveAllPowerUp() 

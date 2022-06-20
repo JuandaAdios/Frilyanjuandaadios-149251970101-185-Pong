@@ -12,6 +12,16 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void CreditTitle()
+    {
+        SceneManager.LoadScene("TitleScene");
+    }
+
+    public void ToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void OpenAuthor()
     {
         Debug.Log("Created By Frilyan Juanda Adios - 149251970101-185");
