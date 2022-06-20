@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreController : MonoBehaviour
 {
@@ -16,4 +17,8 @@ public class ScoreController : MonoBehaviour
         ScoreKanan.text = manager.rightScore.ToString();
     }
 
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
